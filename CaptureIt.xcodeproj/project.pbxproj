@@ -19,11 +19,9 @@
 		3D80954B2CEF93AD001D519B /* CameraGalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80954A2CEF93AD001D519B /* CameraGalleryManager.swift */; };
 		3DAC00802CF12E9A00DC41BD /* CapturedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC007F2CF12E9A00DC41BD /* CapturedImage.swift */; };
 		3DAC00822CF1321600DC41BD /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC00812CF1321600DC41BD /* ImageTableViewCell.swift */; };
-		455469A4E4C6A4C9DD2AD542 /* Pods_CaptureIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152EFAC8178317D5E24672BC /* Pods_CaptureIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		152EFAC8178317D5E24672BC /* Pods_CaptureIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaptureIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4C3D772CF229A60024F1F9 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		3D8095272CEF8E4D001D519B /* CaptureIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D80952A2CEF8E4D001D519B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +36,6 @@
 		3D80954A2CEF93AD001D519B /* CameraGalleryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraGalleryManager.swift; sourceTree = "<group>"; };
 		3DAC007F2CF12E9A00DC41BD /* CapturedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturedImage.swift; sourceTree = "<group>"; };
 		3DAC00812CF1321600DC41BD /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
-		C4753BF1073A219143CA10B6 /* Pods-CaptureIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureIt.release.xcconfig"; path = "Target Support Files/Pods-CaptureIt/Pods-CaptureIt.release.xcconfig"; sourceTree = "<group>"; };
-		CEC136C53378C00C3FA7B979 /* Pods-CaptureIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaptureIt.debug.xcconfig"; path = "Target Support Files/Pods-CaptureIt/Pods-CaptureIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,21 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455469A4E4C6A4C9DD2AD542 /* Pods_CaptureIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A0CBBCD6F3B889AA42BCDE6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				152EFAC8178317D5E24672BC /* Pods_CaptureIt.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3D4C3D792CF257350024F1F9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +109,6 @@
 				3D8095292CEF8E4D001D519B /* CaptureIt */,
 				3D8095282CEF8E4D001D519B /* Products */,
 				8A9CDA190B278CAD741118DA /* Pods */,
-				2A0CBBCD6F3B889AA42BCDE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,8 +137,6 @@
 		8A9CDA190B278CAD741118DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEC136C53378C00C3FA7B979 /* Pods-CaptureIt.debug.xcconfig */,
-				C4753BF1073A219143CA10B6 /* Pods-CaptureIt.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,11 +148,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D80953B2CEF8E51001D519B /* Build configuration list for PBXNativeTarget "CaptureIt" */;
 			buildPhases = (
-				312A2BB5C01CF6F9DBCD6F48 /* [CP] Check Pods Manifest.lock */,
 				3D8095232CEF8E4C001D519B /* Sources */,
 				3D8095242CEF8E4C001D519B /* Frameworks */,
 				3D8095252CEF8E4C001D519B /* Resources */,
-				FD22BE6C73A9B8EF807A3E50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,48 +206,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		312A2BB5C01CF6F9DBCD6F48 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CaptureIt-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD22BE6C73A9B8EF807A3E50 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CaptureIt/Pods-CaptureIt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CaptureIt/Pods-CaptureIt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CaptureIt/Pods-CaptureIt-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D8095232CEF8E4C001D519B /* Sources */ = {
@@ -422,7 +362,6 @@
 		};
 		3D80953C2CEF8E51001D519B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEC136C53378C00C3FA7B979 /* Pods-CaptureIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,7 +393,6 @@
 		};
 		3D80953D2CEF8E51001D519B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4753BF1073A219143CA10B6 /* Pods-CaptureIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
