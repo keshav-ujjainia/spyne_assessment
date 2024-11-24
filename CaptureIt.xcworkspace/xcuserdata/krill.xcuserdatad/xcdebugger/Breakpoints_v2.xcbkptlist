@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0A01B22C-2171-4061-8B46-E9C6CDB182BE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B81E544-F1B1-4C6F-9E4A-82CC22690B96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureIt/UploadManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "uploadImage(_:for:progress:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54AE7CF2-E92E-40A1-A6C5-05E61778EED6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureIt/UploadManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "uploadImage(_:for:progress:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0E5E6E6-39F4-432F-9ADE-5B14764A6FCA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CaptureIt/UploadManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "updateStatus(for:status:progress:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0E5E6E6-39F4-432F-9ADE-5B14764A6FCA - c5778f3cf0402154"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CaptureIt.ApiManager.updateStatus(for: CaptureIt.CapturedImage, status: Swift.String, progress: Swift.Float) -&gt; ()"
+                  moduleName = "CaptureIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krill/Documents/CaptureIt/CaptureIt/UploadManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "A0E5E6E6-39F4-432F-9ADE-5B14764A6FCA - da8cb173626cc1c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in CaptureIt.ApiManager.updateStatus(for: CaptureIt.CapturedImage, status: Swift.String, progress: Swift.Float) -&gt; ()"
+                  moduleName = "CaptureIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krill/Documents/CaptureIt/CaptureIt/UploadManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "A0E5E6E6-39F4-432F-9ADE-5B14764A6FCA - c5778f3cf0402154"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CaptureIt.ApiManager.updateStatus(for: CaptureIt.CapturedImage, status: Swift.String, progress: Swift.Float) -&gt; ()"
+                  moduleName = "CaptureIt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/krill/Documents/CaptureIt/CaptureIt/UploadManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
